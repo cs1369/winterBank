@@ -5,8 +5,8 @@
     text-align: center;
 }
 .container__login{
-    background: rgba(10, 10, 10, 0.288);
-    width: 80%;
+    background: #0a0a0a49;
+    width: 90%;
     height: 70vh;
     padding: 1rem;
     display: flex;
@@ -26,7 +26,7 @@
 }
 .login__label{
     align-self: flex-start;  
-    color: #d8d5d5;;
+    color: #d8d5d5;
 }
 .login__input{
     background: #0000;

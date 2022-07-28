@@ -1,0 +1,35 @@
+.section__registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registro__h1{
+    color: #ffff;
+}
+.container__registro{
+    background: #0a0a0a49;
+    width: 90%;
+    height: 80vh;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.registro__box{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+.registro__label{
+    color: #d8d5d5;
+}
+.registro__input{
+    background: #0000;
+    color: #ffff;
+    padding-bottom:0.5rem ;
+    border: none;
+    outline: none;
+    padding-bottom: 0.1rem;
+    border-bottom: 0.13rem solid #cc01bb; ;
+}
