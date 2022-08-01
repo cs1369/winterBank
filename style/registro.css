@@ -31,5 +31,8 @@
     border: none;
     outline: none;
     padding-bottom: 0.1rem;
-    border-bottom: 0.13rem solid #cc01bb; ;
+    border-bottom: 0.1rem solid #cc01bb; ;
+}
+.registro__input:focus{
+    border-bottom: 0.13rem solid #cc01bb ;
 }
