@@ -1,0 +1,45 @@
+.home__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home__content{
+    position: relative;
+    background: #0a0a0a49;
+    width: 90%;
+    height: 60vh;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.home__btn{
+    background: #0a0a0a49;
+    width: 100%;
+    display: flex;
+    height: 4rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.home__linea-btn{
+    background: #1565c0;
+    width: 5%;
+}
+.home__btn-text{
+    width: 95%;
+    color: #ffff;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home__h1{
+    position: absolute;
+    top: -4rem;
+    color: #ffff;
+}
+
