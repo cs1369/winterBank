@@ -2,6 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+.form__registro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 .registro__h1{
     color: #ffff;
@@ -14,7 +21,8 @@
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    align-items: center;
+    gap: 2rem;
 }
 .registro__box{
     display: flex;
@@ -35,4 +43,9 @@
 }
 .registro__input:focus{
     border-bottom: 0.13rem solid #cc01bb ;
+}
+.registro__btn{
+    background: rgb(198,5,174);
+    background: linear-gradient(45deg, rgba(0,13,190,1) 0%, rgba(198,5,174,1) 100%);
+    width: 10rem;
 }

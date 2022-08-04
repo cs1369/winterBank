@@ -18,3 +18,19 @@ section{
     height: 100vh;
     background: url(/img/fondo.png);
 }
+.btn{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: #ffff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login__link{
+    color: #ffff;
+}
+.link{
+    color: #ffff;
+    text-decoration:underline;
+    font-weight: bold;
+}
