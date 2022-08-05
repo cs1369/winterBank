@@ -19,6 +19,12 @@ section{
     background: url(/img/fondo.png);
     position: relative;
 }
+.section__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 .btn{
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
@@ -53,4 +59,35 @@ section{
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
+}
+.section__btn{
+    background: #0a0a0a49;
+    width: 100%;
+    display: flex;
+    height: 4rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.section__linea-btn{
+    background: #1565c0;
+    width: 5%;
+}
+.section__btn-text{
+    width: 95%;
+    color: #ffff;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.volver__btn{
+    position: absolute;
+    bottom: -4rem;
+    padding: 0.1rem 1rem 0.1rem 0.5rem;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background: #3a0ca3;
+    border-radius: 0.3rem;
+    box-shadow: 10px 10px 21px -8px rgba(0,0,0,0.75);
 }

@@ -1,0 +1,13 @@
+.saldo__content{
+    position: relative;
+    background: #0a0a0a49;
+    width: 90%;
+    height: 50vh;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
