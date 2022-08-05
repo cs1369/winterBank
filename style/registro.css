@@ -24,26 +24,7 @@
     align-items: center;
     gap: 2rem;
 }
-.registro__box{
-    display: flex;
-    flex-direction: column;
-    gap:0.5rem;
-}
-.registro__label{
-    color: #d8d5d5;
-}
-.registro__input{
-    background: #0000;
-    color: #ffff;
-    padding-bottom:0.5rem ;
-    border: none;
-    outline: none;
-    padding-bottom: 0.1rem;
-    border-bottom: 0.1rem solid #cc01bb; ;
-}
-.registro__input:focus{
-    border-bottom: 0.13rem solid #cc01bb ;
-}
+
 .registro__btn{
     background: rgb(198,5,174);
     background: linear-gradient(45deg, rgba(0,13,190,1) 0%, rgba(198,5,174,1) 100%);
