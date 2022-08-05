@@ -1,4 +1,4 @@
-.saldo__content{
+.cbu__content{
     position: relative;
     background: #0a0a0a49;
     width: 90%;
@@ -10,7 +10,10 @@
     flex-direction: column;
     gap: 2rem;
 }
-.saldo__dato{
+.cbu__dato{
     color: #ffff;
-    font-size: 3rem;
+    font-size: 1rem;
+}
+.copiar__btn{
+    color: #ffff;
 }
