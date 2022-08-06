@@ -14,8 +14,10 @@
 .card__content{
     width: 100%;
     padding: 1rem;
+    height: 50vh;
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 0.5rem;
     overflow: auto;
 }
@@ -30,6 +32,10 @@
     align-items: center;
     gap: 1rem;
 }
+.comprobantes{
+    justify-content: center;
+    gap: 2rem;
+}
 .pagar__card-titulo{
     font-weight: bold;
 }
@@ -37,13 +43,21 @@
     font-size: 1.5rem;
 }
 .pagar__card-aviso{
-    width: 4rem;
+    padding: 0 1rem;
     color: #ffff;
     filter: drop-shadow(0 0 0.01rem black);
 }
 .al-dia{
 background: #29bf12;
 }
+.vencido{
+    background: #d62828;
+}
 .pagar__card-btn{
-
+    color: #3a0ca3;
+    border: 0.1rem solid #3a0ca3;
+    padding: 0 1rem;
+    font-weight: bold;
+    background: #390ca32f;
+    border-radius: 0.5rem;
 }
