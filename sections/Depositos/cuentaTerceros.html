@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="../../style/deposito.css">
+    <title>WinterBank Registro</title>
+</head>
+<body>
+    <section class="section__container">
+        <div class="section__nav">
+            <h2 class="section__h2">Cuenta Terceros</h2>
+            <span class="salir__btn">Cerrar Sesion</span>
+        </div>
+        <div class="adherir__content">
+            <h2 class="section__h2">Cuenta Terceros</h2>
+            <form action="" class="form__deposito">
+                <div class="section__box">
+                    <label for="cbu" class="section__label">CBU:</label>
+                    <input type="text" name="nombreServicio" id="cbu" class="section__input" autocomplete="off">
+                </div>
+                <div class="section__box">
+                    <label for="monto" class="section__label">Monto:</label>
+                    <input type="number" name="monto" id="monto" class="section__input" autocomplete="off">
+                </div>
+                <div class="section__box">
+                    <label for="motivo" class="section__label">Motivo:</label>
+                    <select name="motivo" id="movito" class="deposito__select">
+                        <option value="none" selected class="deposito__option">Selectiona un servicio</option>
+                        <option value="servicios" class="deposito__option">Servicios</option>
+                        <option value="cuota" class="deposito__option">Cuota</option>
+                        <option value="alquiler" class="deposito__option">Alquiler</option>
+                        <option value="Varios" class="deposito__option">Varios</option>
+                    </select>
+                </div>
+            </form>
+            <button class="adherir__btn">Agregar</button>
+            <a href="../Depositos/depositos.html" class="volver__btn">&#8592 Menu Anterior</a>
+        </div>
+    </section>
+</body>
+</html>
